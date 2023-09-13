@@ -4,6 +4,9 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Home Page</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300&family=Roboto:wght@500&display=swap" rel="stylesheet">
     <style>
         body{
           background-color: rgb(232, 227, 219);
@@ -11,13 +14,21 @@
         .summary{
            color: brown;
            background-color: rgb(155, 198, 207);
+          letter-spacing: 2px;
+          text-transform:uppercase ;
+          font-family: 'Roboto', sans-serif;
+          text-align: center;
         }
         #language{
             color: rgb(45, 22, 198);
+            font-family: 'Poppins', sans-serif;
         }
         #singleLine{
             color: rgb(192, 27, 27);
             background-color: rgb(226, 211, 123);
+        }
+        .list{
+          font-family: 'Poppins', sans-serif;
         }
     </style>
   </head>
@@ -25,7 +36,7 @@
     <h2 class="summary">Carrier Objective</h2>
     <p>TO WORK IN ORGANIZATION WHERE I CAN LEARN AND GROW MY SKILLS AND HELP ORGANIZATION GROW.</p>
     <h2 class="summary">Professional Summary</h2>
-    <ul type="square">
+    <ul type="square" class="list">
       <li>
         Having 1 year of experience in developing Single page Web Applications
         using <span id="language">Angular8</span>, HTML5, CSS3, Bootstrap 5, Javascript, Typescript

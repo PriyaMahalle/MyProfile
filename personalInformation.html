@@ -4,11 +4,27 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Personal Details</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300&family=Roboto:wght@500&display=swap" rel="stylesheet">
+  <style>
+      .profile{
+        font-family: 'Roboto', sans-serif;
+        text-transform: uppercase;
+        letter-spacing: 2px;
+      }
+      .table{
+        font-family: 'Poppins', sans-serif;
+      }
+      .familyDetails{
+        font-family: 'Poppins', sans-serif;
+      }
+  </style>
 </head>
 <body>
-  <h2>Profile Photo:</h2>
+  <h3 class="profile">Profile Photo:</h3>
     <p><img src="assets/Profile photo.png" alt="profile Photo"></p>
-      <table>
+      <table class="table">
         <tr>
           <td><strong>Name:</strong></td>
           <td>Prisha Joshi</td>
@@ -35,7 +51,7 @@
         </tr>
       </table>
       <br>
-      <details>
+      <details class="familyDetails">
         <summary><b>Family Details:</b></summary>
         <ul>
           <li><b>Fathers Name:</b> Mohit Joshi</li>

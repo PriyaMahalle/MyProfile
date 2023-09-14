@@ -15,51 +15,61 @@
             background-color: rgb(225, 211, 211);
             font-family: 'Roboto', sans-serif;
             letter-spacing: 1px;
-            border: 2px solid black;
+            margin-bottom: 20px;
         }
         .body{
             font-family: 'Poppins', sans-serif;
 
         }
         .navigation{
-            border: 2px solid black;
             background-color: #e3c8e2;
+            margin-right: 15px;
         }
         .footer{
-            border: 2px solid black;
             background-color: #7de0ed;
+            margin-top: 20px;
+        }
+        .contact{
+            margin-right: 30px;
+        }
+        
+        .header-icons{
+            margin-right: 15px;
+        }
+        .footer-icons{
+            margin-right: 15px;
         }
     </style>
 </head>
 <body class="body">
     <!-- Header Section -->
     <header>
-        <i class="fa fa-user" aria-hidden="true"></i><span>&nbsp;Prisha Joshi</span>&nbsp;&nbsp;&nbsp;
-        <i class="fa fa-phone-square" aria-hidden="true"></i>&nbsp;<span>+91 7325 412 864</span>&nbsp;&nbsp;&nbsp;
-        <i class="fa fa-envelope" aria-hidden="true"></i>&nbsp;<span>prishajoshi12@gmail.com</span>
+        <i class=" header-icons fa fa-user" aria-hidden="true"></i><span class="contact">Prisha Joshi</span>
+        <i class=" header-icons fa fa-phone-square" aria-hidden="true"></i><span class="contact">+91 7325 412 864</span>
+        <i class=" header-icons fa fa-envelope" aria-hidden="true"></i><span>prishajoshi12@gmail.com</span>
     </header>
-     <br>
+   
         <!-- Navigation Section -->
-        <nav class="navigation">
-            <a href="home.html" target="myFrame">HOME</a>&nbsp;&nbsp;&nbsp;
-            <a href="technology.html" target="myFrame">TECH STACK</a>&nbsp;&nbsp;&nbsp;
-            <a href="project.html" target="myFrame">PROJECT</a>&nbsp;&nbsp;&nbsp;
-            <a href="education.html" target="myFrame">EDUCATION</a>&nbsp;&nbsp;&nbsp;
-            <a href="others.html" target="myFrame">OTHERS</a>&nbsp;&nbsp;&nbsp;
-            <a href="personalInformation.html" target="myFrame">PERSONAL</a>&nbsp;&nbsp;&nbsp;
-            <a href="contactUs.html" target="myFrame">CONTACT US</a>
+        <nav>
+            <a href="home.html" target="myFrame" class="navigation">HOME</a>
+            <a href="technology.html" target="myFrame" class="navigation">TECH STACK</a>
+            <a href="project.html" target="myFrame" class="navigation">PROJECT</a>
+            <a href="education.html" target="myFrame" class="navigation">EDUCATION</a>
+            <a href="others.html" target="myFrame" class="navigation">OTHERS</a>
+            <a href="personalInformation.html" target="myFrame" class="navigation">PERSONAL</a>
+            <a href="contactUs.html" target="myFrame" class="navigation">CONTACT US</a>
         </nav>
-        <br>
+       
      <!-- Body Section  -->
-     <iframe src="home.html" width="1100px" height="500px" name="myFrame"> </iframe>
-    <br><br>
+     <iframe src="home.html" width="1100px" height="550px" name="myFrame" style="margin-top: 20px;"> </iframe>
+ 
     <!-- Footer Section -->
     <footer class="footer">
-        <span><strong>Follow Me:</strong></span>&nbsp;&nbsp;
-        <a href="https://in.linkedin.com/"><i class="fa fa-2x fa-linkedin-square" aria-hidden="true"></i></a>&nbsp;&nbsp;
-        <a href="https://www.google.com/"><i class="fa fa-2x fa-google" aria-hidden="true"></i></a>&nbsp;&nbsp;
-        <a href="https://www.instagram.com/"><i class="fa fa-2x fa-instagram" aria-hidden="true"></i></a>&nbsp;&nbsp;
-        <a href="https://www.facebook.com/"><i class="fa fa-2x fa-facebook-square" aria-hidden="true"></i></a>
+        <span style="margin-right: 15px;"><strong>Follow Me:</strong></span>
+        <a href="https://in.linkedin.com/"><i class=" footer-icons fa fa-2x fa-linkedin-square" aria-hidden="true"></i></a>
+        <a href="https://www.google.com/"><i class="fa footer-icons fa-2x fa-google" aria-hidden="true"></i></a>
+        <a href="https://www.instagram.com/"><i class=" footer-icons fa fa-2x fa-instagram" aria-hidden="true"></i></a>
+        <a href="https://www.facebook.com/"><i class=" footer-icons fa fa-2x fa-facebook-square" aria-hidden="true"></i></a>
     </footer>
     
 </body>

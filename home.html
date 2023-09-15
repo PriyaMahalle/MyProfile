@@ -31,9 +31,18 @@
         .list{
           font-family: 'Poppins', sans-serif;
           padding: 4px;
+          list-style-type: none;
+          
         }
         .objective{
           font-family: 'Poppins', sans-serif;
+        }
+        .summaryList{
+          list-style-type: none;
+        }
+        .list::before{
+          content: "👉";
+          padding: 5px;
         }
     </style>
   </head>
@@ -41,7 +50,7 @@
     <h2 class="summary">Carrier Objective</h2>
     <p class="objective">TO WORK IN ORGANIZATION WHERE I CAN LEARN AND GROW MY SKILLS AND HELP ORGANIZATION GROW.</p>
     <h2 class="summary">Professional Summary</h2>
-    <ul type="square">
+    <ul type="square" class="summaryList">
       <li class="list">
         Having 1 year of experience in developing Single page Web Applications
         using <span id="language">Angular8</span>, HTML5, CSS3, Bootstrap 5, Javascript, Typescript
